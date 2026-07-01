@@ -3,7 +3,6 @@ import logindata from "from../../../testdata/Login.json"
 import jobtitledata from "../testdata/AddJobTitle.json"
 import { faker } from '@faker-js/faker';
 
-
 test("verify the add job title",async({page})=>{
 await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 await page.locator("input[name='username']").fill(logindata.username)
