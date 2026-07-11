@@ -1,5 +1,5 @@
 {
-"fullname":"Madhu",
-"permanentAddress" : "Hyderabad"
-
+  "fullname": "Madhu",
+  "currentAddress": "Hyderabad",
+  "permanentAddress": "Hyderabad"
 }
