@@ -1,6 +1,15 @@
 import { test, expect } from '@playwright/test';
 import logindata from "from../../../testdata/Login.json"
 test('Verify the orange hrm logo', async ({ page }) => {
+
+  // if(process.env.ENVIRONMENT=="DEV"){
+  //   await page.goto('www.dev.com/');
+  // }else if(process.env.ENVIRONMENT=="DEV"){
+  //   await page.goto('www.qa.com/');
+  // }else if('process.env.prepod.com/'){
+  //   await page.goto('www.prepod.com/');
+  //   }
+
   await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login');
   await expect(page.getByRole('img', { name: 'company-branding' })).toBeVisible()
 });
