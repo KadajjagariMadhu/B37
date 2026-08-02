@@ -1,5 +1,7 @@
 {
   "fullname": "Madhu",
   "currentAddress": "Hyderabad",
-  "permanentAddress": "Hyderabad"
+  "permanentAddress": "Hyderabad",
+  "username":"Admin",
+  "password":"admin123"
 }

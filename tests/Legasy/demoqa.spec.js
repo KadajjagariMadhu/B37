@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test';
-import demoqa from "../testdata/demoqa.json"
+import demoqa from "../../testdata/demoqa.json"
 
 test('verify test box', async({page})=>{
 await page.goto('https://demoqa.com/text-box')

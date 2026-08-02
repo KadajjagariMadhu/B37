@@ -1,6 +1,6 @@
 import{test, expect} from '@playwright/test';
 import logindata from "from../../../testdata/Login.json"
-import jobtitledata from "../testdata/AddJobTitle.json"
+import jobtitledata from "../../testdata/AddJobTitle.json"
 //import generateJobTitle from '../utilities../../'
 test("verify the add job title",async({page})=>{
 await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')

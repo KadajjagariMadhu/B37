@@ -4,20 +4,20 @@ import { test, expect } from '@playwright/test';
 
 const employeeData={
     set1:{
-         firstname:"nabufj",
-         lastname:"kj",
+         firstname:"nabufjg",
+         lastname:"kjh",
     },
     set2:{
-          firstname:"hubauyi",
-          lastname:"gj"
+          firstname:"hubauyik",
+          lastname:"gjk"
     },
     set3:{
-          firstname:"moonuog",
-          lastname:"ku"
+          firstname:"moonuogj",
+          lastname:"gku"
     },
     set4:{
-          firstname:"karooripji",
-          lastname:"te"
+          firstname:"karooripjfi",
+          lastname:"tek"
     },
 } 
     for(let emp1 in employeeData){
@@ -32,8 +32,8 @@ const employeeData={
   //const firstName = faker.person.firstName();
   //const lastName=faker.person.lastName();
   await page.waitForTimeout(5000);
-  await page.getByRole('textbox', { name: 'First Name' }).fill(employeeData[emp1].username);
-  await page.getByRole('textbox', { name: 'Last Name' }).fill(employeeData[emp1].password);
+  await page.getByRole('textbox', { name: 'First Name' }).fill(employeeData[emp1].firstname);
+  await page.getByRole('textbox', { name: 'Last Name' }).fill(employeeData[emp1].lastname);
    await page.getByRole('button', { name: 'Save' }).click()
   //const employeeId = Math.floor(Math.random() * 100000);
   //await page.getByRole('textbox').nth(4).fill(employeeId.toString());  await page.getByRole('button', { name: 'Save' }).click();

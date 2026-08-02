@@ -1,5 +1,5 @@
-import{test,expect} from '@playwright/test';
-import jsondata from "../testdata/JsonData.json"
+import {test,expect} from '@playwright/test';
+import jsondata from "../../testdata/JsonData.json"
 import { faker } from '@faker-js/faker';
 import ExcelJS from 'exceljs';
 import path from 'path';
