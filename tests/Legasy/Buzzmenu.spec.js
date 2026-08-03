@@ -1,7 +1,7 @@
 import{test,expect} from "@playwright/test";
-import{loginpage} from "../pages/LoginPage.Po";
-import{DashboardPage} from "../pages/DashboardPage.Po";
-import { BuzzNewsfeed } from "../pages/BuzzNewsfeed.Po";
+import{loginpage} from "../../pages/LoginPage.Po";
+import{DashboardPage} from "../../pages/DashboardPage.Po";
+import { BuzzNewsfeed } from "../../pages/BuzzNewsfeed.Po";
 //import data from "../testdata/JsonData.json"
 
 test("verify buzzmenu functionality",async({page})=>{
